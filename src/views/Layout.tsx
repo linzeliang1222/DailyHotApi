@@ -186,8 +186,8 @@ const Layout: FC<LayoutProps> = (props) => {
       </head>
       <body>
         {props.children}
-        {/* <footer>
-          <div class="social">
+        <footer>
+          {/* <div class="social">
             <a href="https://github.com/imsyy/DailyHotApi" className="link" target="_blank">
               <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
                 <path
@@ -233,8 +233,8 @@ const Layout: FC<LayoutProps> = (props) => {
             <a href="https://beian.miit.gov.cn/" target="_blank">
               豫ICP备2022018134号-1
             </a>
-          </div>
-        </footer> */}
+          </div> */}
+        </footer>
       </body>
     </html>
   );
