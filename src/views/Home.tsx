@@ -7,7 +7,7 @@ const Home: FC = () => {
     <Layout title="DailyHot API">
       <main className="home">
         <div className="img">
-          <img src="/ico/favicon.png" alt="logo" />
+          <img src="hot/ico/favicon.png" alt="logo" />
         </div>
         <div className="title">
           <h1 className="title-text">DailyHot API</h1>
@@ -49,7 +49,7 @@ const Home: FC = () => {
       {html`
         <script>
           document.getElementById("test-button").addEventListener("click", () => {
-            window.location.href = "/all";
+            window.location.href = "/hot/all";
           });
         </script>
       `}

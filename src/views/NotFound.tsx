@@ -33,7 +33,7 @@ const NotFound: FC = () => {
       {html`
         <script>
           document.getElementById("home-button").addEventListener("click", () => {
-            window.location.href = "/";
+            window.location.href = "/hot/";
           });
         </script>
       `}
