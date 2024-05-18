@@ -49,7 +49,7 @@ const Home: FC = () => {
       {html`
         <script>
           document.getElementById("test-button").addEventListener("click", () => {
-            window.location.href = "/hot/all";
+            window.location.href = "all";
           });
         </script>
       `}
