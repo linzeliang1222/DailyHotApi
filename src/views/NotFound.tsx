@@ -1,6 +1,7 @@
 import type { FC } from "hono/jsx";
 import { html } from "hono/html";
 import Layout from "./Layout.js";
+import { config } from "../config.js";
 
 const NotFound: FC = () => {
   return (
@@ -33,7 +34,7 @@ const NotFound: FC = () => {
       {html`
         <script>
           document.getElementById("home-button").addEventListener("click", () => {
-            window.location.href = "/hot/";
+            window.location.href = "${config.BASE_PATH}";
           });
         </script>
       `}

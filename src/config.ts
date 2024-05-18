@@ -11,6 +11,7 @@ export type Config = {
   ALLOWED_DOMAIN: string;
   USE_LOG_FILE: boolean;
   RSS_MODE: boolean;
+  BASE_PATH: string;
 };
 
 // 验证并提取环境变量
@@ -47,4 +48,5 @@ export const config: Config = {
   ALLOWED_DOMAIN: getEnvVariable("ALLOWED_DOMAIN") || "*",
   USE_LOG_FILE: getBooleanEnvVariable("USE_LOG_FILE", true),
   RSS_MODE: getBooleanEnvVariable("RSS_MODE", false),
+  BASE_PATH: getEnvVariable("BASE_PATH") || "/",
 };
